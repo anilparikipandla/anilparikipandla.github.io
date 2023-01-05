@@ -1,0 +1,73 @@
+.sidebarOpen{
+    height: 100vh;
+    width: 250px;
+    background-color: #3385FF;
+    color: white;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
+}
+
+.sidebarClose{
+    width: 50px;
+    background-color: #3385FF;
+    color: white;
+    padding: 0px;
+}
+
+.sidebarHeader{
+    display: flex;
+    padding: 10px;
+    color:white;
+    font-family: Calibri;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+.sidebarHeaderClose{
+    display: flex;
+    padding: 10px;
+    color:white;
+    font-family: Calibri;
+    font-weight: bold;
+    justify-content: center;
+}
+.sidebarTitle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebarData{
+    width: 100%;
+    font-family: Calibri;
+    font-size: large;
+    text-align: left;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.sidebarData:hover{
+    width: 100%;
+    font-family: Calibri;
+    font-size: large;
+    text-align: left;
+    padding: 10px;
+    color: #3385FF;
+    font-weight: bold;
+    background-color: white;
+}
+
+.sidebarButtonArea{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+.sidebarButton{
+    color: #3385FF;
+    border: none;
+    display: inline-block;
+    background-color: white;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: large;
+    font-family: Calibri;
+}

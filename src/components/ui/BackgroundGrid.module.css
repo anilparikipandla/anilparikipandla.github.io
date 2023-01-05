@@ -1,0 +1,44 @@
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.hours {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 10%;
+    justify-content: center;
+    background-color: white;  /*offwhite*/
+}
+
+.hourlabel{
+    flex:1;
+    padding-right: 10px;
+    text-align: right;
+    border-bottom: 1px solid antiquewhite; /*grey*/
+    border-right: 1px solid antiquewhite; /*grey*/
+    border-left: 1px solid antiquewhite; /*grey*/;
+    color: #3385FF;
+    font-weight: bold;
+    font-family: Calibri;
+}
+
+.column{
+    height: 100%;
+    flex: 1;
+    min-width: 30%;
+    border-right: 1px solid antiquewhite;
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    width: 100%;
+    flex: 1;
+    min-height: 50px;
+    background-color: white; /*offwhite*/
+    border-bottom: 1px solid antiquewhite;
+    vertical-align: center;
+}
