@@ -3,6 +3,7 @@ import Header from "./components/header/Header";
 import BackgroundGrid from "./components/ui/BackgroundGrid";
 import Sidebar from "./components/sidebar/Sidebar";
 import Event from "./components/Event/Event";
+import EventModal from "./components/Event/EventModal";
 function App() {
   return (
     <div className="container">
@@ -13,8 +14,8 @@ function App() {
             </Header>
             <div className="Box">
                 {/*<Sidebar/>*/}
+                <EventModal></EventModal>
                 <BackgroundGrid/>
-                <Event/>
             </div>
         </div>
     </div>
