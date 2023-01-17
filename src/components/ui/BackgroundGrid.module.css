@@ -1,87 +1,85 @@
 .columns {
-    display: flex;
-    flex-wrap: wrap;
-    width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
 }
 
 .hours {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 10%;
-    justify-content: center;
-    background-color: white;  /*offwhite*/
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 10%;
+  justify-content: center;
+  background-color: white; /*offwhite*/
 }
 
-.hourlabel{
-    flex:1;
-    padding-right: 10px;
-    text-align: right;
-    border-bottom: 1px solid antiquewhite; /*grey*/
-    border-right: 1px solid antiquewhite; /*grey*/
-    border-left: 1px solid antiquewhite; /*grey*/;
-    color: #3385FF;
-    font-weight: bold;
-    font-family: Calibri, sans-serif;
+.hourlabel {
+  flex: 1;
+  padding-right: 10px;
+  text-align: right;
+  border-bottom: 1px solid antiquewhite; /*grey*/
+  border-right: 1px solid antiquewhite; /*grey*/
+  border-left: 1px solid antiquewhite; /*grey*/
+  color: #3385ff;
+  font-weight: bold;
+  font-family: Calibri, sans-serif;
 }
 
-.day{
-    height: 100%;
-    flex: 1;
-    min-width: 30%;
-    border-right: 1px solid antiquewhite;
-    display: flex;
-    flex-direction: column;
+.day {
+  height: 100%;
+  flex: 1;
+  min-width: 30%;
+  border-right: 1px solid antiquewhite;
+  display: flex;
+  flex-direction: column;
 }
 
-.row{
-    width: 100%;
-    flex: 1;
-    min-height: 100px;
-    background-color: white;
-    border-bottom: 1px solid antiquewhite;
+.row {
+  width: 100%;
+  flex: 1;
+  min-height: 100px;
+  background-color: white;
+  border-bottom: 1px solid antiquewhite;
 }
 
-.gridHeader{
-    display: flex;
-    background-color: white;
+.gridHeader {
+  display: flex;
+  background-color: white;
+  border-top: 1px solid antiquewhite;
 }
 
-.grid{
-    display: flex;
-    width: 100%;
-    background-color: #61dafb;
-    flex-direction: column;
+.grid {
+  display: flex;
+  width: 100%;
+  background-color: #61dafb;
+  flex-direction: column;
 }
 
-.gridBox{
-    display: flex;
+.gridBox {
+  display: flex;
 }
 
-.gridHeaderDayCol{
-    width: 100%;
-    min-height: 50px;
-    flex: 1;
-    border-bottom: 1px solid antiquewhite;
-    border-right: 1px solid antiquewhite;
-    text-align: center;
+.gridHeaderDayCol {
+  width: 100%;
+  min-height: 50px;
+  flex: 1;
+  border-bottom: 1px solid antiquewhite;
+  border-right: 1px solid antiquewhite;
+  text-align: center;
 }
 
-.dayNumber{
-    color: white;
-    font-weight: bold;
-    font-size: large;
-    font-family: Calibri, sans-serif;
-    background-color: #3385FF;
-    border-radius: 50px;
-    display: inline-block;
-    line-height: 35px;
-    min-width: 35px;
-    margin: 5px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2)
-
-
+.dayNumber {
+  color: white;
+  font-weight: bold;
+  font-size: large;
+  font-family: Calibri, sans-serif;
+  background-color: #3385ff;
+  border-radius: 50px;
+  display: inline-block;
+  line-height: 35px;
+  min-width: 35px;
+  margin: 5px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
-.borderLeft{
-
+.borderLeft {
 }

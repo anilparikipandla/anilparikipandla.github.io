@@ -1,0 +1,79 @@
+.createEventForm {
+  padding: 20px;
+}
+.eventTitle {
+  border-bottom: 1px solid black;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 0px;
+}
+.eventColorCircle {
+  background-color: firebrick;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 1px;
+}
+
+.eventGreenColorCircle {
+  background-color: greenyellow;
+  border: 2px solid black;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 1px;
+}
+
+.eventBlueColorCircle {
+  background-color: skyblue;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 1px;
+}
+
+.eventYellowColorCircle {
+  background-color: yellow;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 1px;
+}
+
+.eventOrangeColorCircle {
+  background-color: orange;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 1px;
+}
+
+div.colorContainer {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  align-items: center;
+}
+
+.eventDescription {
+  border-bottom: 1px solid black;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 0px;
+}
+
+.eventLabel {
+  padding-top: 6px;
+  padding-right: 6px;
+  padding-left: 6px;
+}
+
+.eventDate {
+  min-width: 200px;
+}
+
+.fillColor {
+  color: blueviolet;
+}

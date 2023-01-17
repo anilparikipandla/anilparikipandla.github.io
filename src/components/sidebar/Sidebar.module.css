@@ -1,82 +1,83 @@
-.sidebarOpen{
-    height: 100vh;
-    width: 350px;
-    background-color: white;
-    color: white;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
-    margin-right: 3px;
-    border-bottom-right-radius: 10px;
+.sidebarOpen {
+  height: 100vh;
+  width: 320px;
+  background-color: #3385ff;
+  color: white;
 }
 
-.sidebarClose{
-    width: 50px;
-    background-color: #3385FF;
-    color: white;
-    padding: 0px;
+.sidebarClose {
+  width: 50px;
+  background-color: #3385ff;
+  color: white;
+  padding: 0px;
 }
 
-.sidebarHeader{
-    display: flex;
-    padding: 10px;
-    background-color: #3385FF;
-    color:white;
-    font-family: Calibri;
-    font-weight: bold;
-    justify-content: space-between;
+.sidebarHeader {
+  display: flex;
+  padding: 10px;
+  background-color: #3385ff;
+  color: white;
+  font-family: Calibri;
+  font-weight: bold;
+  font-size: larger;
+  justify-content: space-between;
+  min-height: 50px;
+  box-shadow: 0px 1px 5px 1px rgb(0 0 0 / 25%);
 }
 
-.sidebarHeaderClose{
-    display: flex;
-    padding: 10px;
-    color:white;
-    font-family: Calibri;
-    font-weight: bold;
-    justify-content: center;
+.sidebarHeaderClose {
+  display: flex;
+  padding: 10px;
+  color: white;
+  font-family: Calibri;
+  font-weight: bold;
+  font-size: larger;
+  justify-content: center;
 }
-.sidebarTitle{
-    display: flex;
-    justify-content: space-between;;
-}
-
-.sidebarData{
-    width: 100%;
-    font-family: Calibri;
-    font-size: large;
-    text-align: left;
-    padding: 10px;
-    color: #3385FF;
-    font-weight: bold;
+.sidebarTitle {
+  display: flex;
+  justify-content: space-between;
 }
 
-.sidebarData:hover{
-    width: 100%;
-    font-family: Calibri;
-    font-size: large;
-    text-align: left;
-    padding: 10px;
-    color: #3385FF;
-    font-weight: bold;
-    background-color: white;
+.sidebarData {
+  width: 100%;
+  font-family: Calibri;
+  font-size: large;
+  text-align: left;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
 }
 
-.sidebarButtonArea{
-    width: 100%;
-    text-align: center;
-    padding: 10px;
-}
-.sidebarButton{
-    color: white;
-    border: none;
-    display: inline-block;
-    background-color: #3385FF;
-    padding: 10px 25px;
-    border-radius: 20px;
-    font-size: large;
-    font-family: Calibri, sans-serif;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
+.sidebarData:hover {
+  width: 100%;
+  font-family: Calibri;
+  font-size: large;
+  text-align: left;
+  padding: 10px;
+  color: #3385ff;
+  font-weight: bold;
+  background-color: white;
 }
 
-.hamBurger:hover{
-    background-color: white;
-    color: #3385FF;
+.sidebarButtonArea {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+.sidebarButton {
+  color: #3385ff;
+  border: none;
+  display: inline-block;
+  background-color: white;
+  padding: 10px 25px;
+  border-radius: 20px;
+  font-size: large;
+  font-family: Calibri, sans-serif;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+.hamBurger:hover {
+  background-color: white;
+  color: #3385ff;
 }

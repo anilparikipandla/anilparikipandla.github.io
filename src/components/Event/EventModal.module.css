@@ -1,34 +1,63 @@
-.modal{
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.5);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.modalContent{
-    width: 500px;
-    background-color: white;
-
+.modalContent {
+  width: 600px;
+  background-color: white;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
 }
 
-.modalHeader{
-    background-color: #3385FF;
-    padding: 10px;
-
+.modalHeader {
+  background-color: #3385ff;
+  padding: 10px;
 }
 
-.modalTitle{
-margin: 0;
+.modalTitle {
+  margin: 0;
+  color: white;
+  font-family: Calibri;
 }
 
-.modalBody{
-
+.modalFooter {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: end;
 }
 
-.modalFooter{padding: 10px;
+.saveButton {
+  color: white;
+  border: none;
+  display: inline-block;
+  background-color: #3385ff;
+  padding: 10px 25px;
+  border-radius: 20px;
+  font-size: large;
+  font-family: Calibri, sans-serif;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
+  margin-right: 5px;
+}
+
+.cancelButton {
+  color: #3385ff;
+  border: none;
+  display: inline-block;
+  background-color: white;
+  padding: 10px 25px;
+  border-radius: 20px;
+  font-size: large;
+  font-family: Calibri, sans-serif;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
+  margin-left: 5;
 }

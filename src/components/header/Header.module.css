@@ -1,10 +1,44 @@
-.header{
-    background-color: #6CC856;
-    display: flex;
-    padding: 10px;
-    width: 100%;
-    color:white;
-    font-family: Calibri;
-    font-weight: bold;
-    justify-content: center;
+.header {
+  background-color: white;
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  color: #3385ff;
+  font-family: Calibri;
+  font-weight: bold;
+  justify-content: center;
+  min-height: 50px;
+  flex-direction: row;
+}
+
+.title {
+  justify-items: stretch;
+  display: flex;
+  align-items: center;
+}
+
+.navigate {
+  flex: 1;
+  color: #3385ff;
+}
+
+.navigate:hover {
+  flex: 1;
+  color: white;
+}
+
+.currentDate {
+  flex: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.navigateButton {
+  padding: 2px 6px 2px 6px;
+}
+
+.navigateButton:hover {
+  background-color: #3385ff;
+  padding: 2px 6px 2px 6px;
+  border-radius: 50%;
 }
