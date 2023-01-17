@@ -4,6 +4,10 @@ import { Context } from '../../store/Context';
 
 const numberOfHours = 24;
 
+const addDays = (date, noOfDays) => {
+  return new Date(new Date(date).setDate(date.getDate() + noOfDays));
+};
+
 const BackgroundGrid = (props) => {
   const { date, modal } = useContext(Context);
   const [dateValue, setDateValue] = date;
@@ -11,36 +15,47 @@ const BackgroundGrid = (props) => {
     <div className={classes.grid}>
       <div className={classes.gridHeader}>
         <div className={classes.hours}>
-          <div className={classes.hourlabel}></div>
+          <div className={classes.hourlabelHeader}></div>
         </div>
-        <div className={classes.columns}>
+        <div className={classes.columnsHeader}>
           <div className={classes.gridHeaderDayCol}>
             <span className={classes.dayNumber}>{dateValue.getDate()}</span>
           </div>
           <div className={classes.gridHeaderDayCol}>
-            <span className={classes.dayNumber}>{dateValue.getDate() + 1}</span>
+            <span className={classes.dayNumber}>
+              {addDays(dateValue, 1).getDate()}
+            </span>
           </div>
           <div className={classes.gridHeaderDayCol}>
-            <span className={classes.dayNumber}>{dateValue.getDate() + 2}</span>
+            <span className={classes.dayNumber}>
+              {addDays(dateValue, 2).getDate()}
+            </span>
           </div>
         </div>
       </div>
+
       <div className={classes.gridBox}>
-        <div className={classes.hours}>
-          {
-            <Fragment>
-              {Array(numberOfHours)
-                .fill(0)
-                .map((ele, index) => (
-                  <div className={classes.hourlabel}>{`${index + 1}:00`}</div>
-                ))}
-            </Fragment>
-          }
-        </div>
-        <div className={classes.columns}>
-          <Day />
-          <Day />
-          <Day />
+        <div className={classes.gridScroll}>
+          <div className={classes.playArea}>
+            <div className={classes.hours}>
+              {
+                <Fragment>
+                  {Array(numberOfHours)
+                    .fill(0)
+                    .map((ele, index) => (
+                      <div className={classes.hourlabel}>{`${
+                        index + 1
+                      }:00`}</div>
+                    ))}
+                </Fragment>
+              }
+            </div>
+            <div className={classes.columns}>
+              <Day />
+              <Day />
+              <Day />
+            </div>
+          </div>
         </div>
       </div>
     </div>
